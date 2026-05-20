@@ -187,10 +187,11 @@ body {
   transition: color 0.15s ease, transform 0.15s ease;
 }
 
-/* ─── Workshop Band ───────────────────────────────────── */
-.workshop-band {
+/* ─── Workshop Card ───────────────────────────────────── */
+.workshop-card {
   background: var(--teal);
-  padding: 72px 0;
+  border-radius: 8px;
+  padding: 48px 40px;
 }
 
 .workshop-heading {
@@ -237,6 +238,49 @@ body {
 .btn-waitlist:hover {
   background: var(--lime);
   color: var(--bg);
+}
+
+/* ─── Coming Soon ────────────────────────────────────── */
+.coming-soon {
+  border: 1px dashed rgba(140, 166, 145, 0.55);
+  border-radius: 8px;
+  padding: 44px 32px;
+  text-align: center;
+  background: #3b3d3a;
+}
+
+.coming-soon-dot {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--lime);
+  opacity: 0.6;
+  margin: 0 auto 18px;
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50%       { opacity: 0.15; }
+}
+
+.coming-soon-heading {
+  font-family: var(--serif);
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.coming-soon-text {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 340px;
+  margin: 0 auto;
 }
 
 /* ─── Footer ──────────────────────────────────────────── */
