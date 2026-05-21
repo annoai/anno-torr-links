@@ -167,16 +167,16 @@ body {
 
 .offer-name {
   font-family: var(--serif);
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 400;
   color: var(--text);
   line-height: 1.2;
 }
 
 .offer-desc {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.65;
-  color: var(--muted);
+  color: var(--text);
 }
 
 .arrow {
