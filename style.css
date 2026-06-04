@@ -13,7 +13,7 @@
   --teal:    #014c72;
   --lime:    #e6ffb1;
   --text:    #f1f0ee;
-  --muted:   #f1f0ee;
+  --muted:   #87b5b1;
   --divider: rgba(140, 166, 145, 0.18);
 
   --serif: 'Cormorant Garamond', Georgia, serif;
@@ -271,14 +271,14 @@ body {
   font-weight: 400;
   font-style: italic;
   letter-spacing: 0.02em;
-  color: var(--muted);
+  color: #fcf8f5;
   margin-bottom: 10px;
 }
 
 .coming-soon-text {
   font-size: 13px;
   line-height: 1.7;
-  color: var(--muted);
+  color: #fcf8f5;
   max-width: 340px;
   margin: 0 auto;
 }
