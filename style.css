@@ -13,7 +13,7 @@
   --teal:    #014c72;
   --lime:    #e6ffb1;
   --text:    #f1f0ee;
-  --muted:   #364847;
+  --muted:   #87b5b1;
   --divider: rgba(140, 166, 145, 0.18);
 
   --serif: 'Cormorant Garamond', Georgia, serif;
@@ -246,7 +246,7 @@ body {
   border-radius: 8px;
   padding: 44px 32px;
   text-align: center;
-  background: #5f7f7c;
+  background: #516d6a;
 }
 
 .coming-soon-dot {
